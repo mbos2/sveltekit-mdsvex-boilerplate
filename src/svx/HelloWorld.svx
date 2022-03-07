@@ -1,0 +1,17 @@
+---
+title: Sveltekit MDSVEX Boilerplate
+date: 07/03/2022
+summary: A cool counter I made
+---
+
+<script lang="ts">
+  import Counter from '../components/Counter.svelte';
+</script>
+
+# Hello World  
+
+This boilerplate is powered by [Svelte Kit](https://kit.svelte.dev/) and [MDsveX](https://github.com/pngwn/MDsveX).  
+Counter is a svelte component that is imported into .svx file.  
+This way you can use svelte components inside a markdown syntax.
+
+<Counter />
